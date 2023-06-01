@@ -51,6 +51,35 @@ header section {
   padding-left: 1em;
 }
 
+.skills {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.skills .column {
+  -ms-flex: 0 0 50%%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+ul {
+  margin: 0;
+}
+ul.list-dashed {
+  list-style-type: none;
+  padding: 0;
+}
+ul.list-dashed > li {
+ padding-left: 1.5em;
+}
+ul.list-dashed > li:before {
+  content: "-";
+  padding-right: 0.5em;
+}
+
+
 
 header img {
   border-radius: 50%;
